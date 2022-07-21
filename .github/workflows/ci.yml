@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, macOS-latest]
-        attr: [grpc-haskell-core, grpc-haskell, grpc]
+        attr: [grpc]
 
     runs-on: ${{ matrix.os }}
 
